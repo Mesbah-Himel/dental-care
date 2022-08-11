@@ -6,34 +6,27 @@ import james from "../../../images/james.png";
 import jack from "../../../images/jack.png";
 import quote from "../../../images/quote.jpg";
 
-// const peopleQuote = [
-//   {
-//     img: quote,
-//   },
-// ];
 const testimonialData = [
   {
     quote: " Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
     name: "Harry Wilson",
     from: "Japan",
     img: wilson,
-    quoteimg: quote
+    quoteimg: quote,
   },
   {
     quote: " Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
     name: "James Stewrt",
     from: "USA",
     img: james,
-    quoteimg: quote
-
+    quoteimg: quote,
   },
   {
     quote: " Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
     name: "Mike Jack",
     from: "Japan",
     img: jack,
-    quoteimg: quote
-
+    quoteimg: quote,
   },
 ];
 
@@ -48,16 +41,10 @@ const Testimonials = () => {
             What Our Patients <br /> Says
           </h1>
         </div>
-        <div className="d-flex justify-content-sm-evenly mt-5">
-          {/* {testimonialData.map((testimonial) => (
-            <Testimonial testimonial={testimonial}></Testimonial>
-          ))} 
-          card-group col-4 mt-5*/}
-
+        <div className="d-flex justify-content-sm-between mt-5">
           {testimonialData.map((testimonial) => (
             <Testimonial testimonial={testimonial}></Testimonial>
           ))}
-          {/* testimonialData.map(testimonial =><Testimonials></Testimonials>) */}
         </div>
       </div>
     </section>
