@@ -1,10 +1,10 @@
-*If you want to see the demo , click to the live project link.
+##click watch the project in live.
 
 ***
 
 *Live : ( https://elegant-meringue-d1442d.netlify.app/  )
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
