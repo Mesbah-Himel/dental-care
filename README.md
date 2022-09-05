@@ -1,4 +1,4 @@
-##click watch the project in live.
+## Click watch the project in live.
 
 ***
 
